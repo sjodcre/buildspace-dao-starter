@@ -4,8 +4,9 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
-  color: #fff;
+  background: linear-gradient(to right, #efefef, red, yellow);
+  background-color: linear-gradient(to right, #ff0000 , #ffff00);
+  color: #0;
   overflow-x: hidden;
 }
 #root {
@@ -138,4 +139,8 @@ button:focus {
 button:disabled {
   opacity: 0.8;
   pointer-events: none;
+}
+
+.voteButton {
+  background: linear-gradient(to right, white, blue);
 }
